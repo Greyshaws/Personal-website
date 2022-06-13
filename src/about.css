@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: #ffffff;
+    font-family: josefin-sans, 'Montserrat', "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.links {
+    position: relative;
+    left: 680px;
+    font-weight: bold;
+    color: #2a3f7e;
+}
+
+.signin:link {
+    position: relative;
+    left: 160px;
+    text-decoration: none;
+    padding: 14px 25px;
+    display: inline-block;
+}
+
+.signin:hover {
+    color: #182c67;
+}
+
+.signup {
+    position: relative;
+    left: 150px;
+    text-decoration: none;
+}
+
+.signup:hover {
+    color: #182c67;
+}
+
+.contact {
+    position: relative;
+    left: 20px;
+    text-decoration: none;
+    background-color: #2a3f7e;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contact:hover {
+    color: #182c67;
+}
+
+.about {
+    position: relative;
+    left: 103px;
+    text-decoration: none;
+}
+
+.about:hover {
+    color: #182c67;
+}
+
+.split {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #4d5e93;
+}
+
+.centered img {
+    position: relative;
+    top: 90px;
+    left: 80px;
+    width: 180px;
+    height: 280px;
+    border-radius: 100px;
+    background-color: rgb(210, 207, 207);
+}
+
+.logo {
+    position: relative;
+    top: -16px;
+    left: 5px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 12px;
+}
+
+main {
+    position: relative;
+    top: 80px;
+    left: 450px;
+}
+
+.hello {
+    position: relative;
+    left: 260px;
+    color: #2a3f7e;
+}
+
+.name {
+    position: relative;
+    top: 3px;
+    left: 150px;
+    font-size: 70px;
+    color: #2a3f7e;
+    font-weight: bold;
+}
+
+.software {
+    position: relative;
+    top: 5px;
+    color: #2a3f7e;
+    left: 155px;
+    height: 50px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 23px;
+}
+
+.help {
+    position: relative;
+    top: 10px;
+    left: 155px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #2a3f7e;
+    font-size: 19px;
+}
+
+.feel {
+    position: relative;
+    top: 15px;
+    left: 155px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #2a3f7e;
+    font-size: 19px;
+}
+
+.git {
+    position: relative;
+    top: 130px;
+    left: 80px;
+}
+
+.twitter {
+    position: relative;
+    top: 130px;
+    left: 100px;
+    width: 30px;
+}
+
+.facebook {
+    position: relative;
+    top: 130px;
+    left: 120px;
+    width: 30px;
+}
